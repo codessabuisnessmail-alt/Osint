@@ -2,7 +2,7 @@
 
 > **⚠️ Demo / Proof of Concept** — This is a demo project and is not fully fledged. It demonstrates core concepts and functionality but is incomplete, may have bugs, and is not production-ready. Use at your own discretion.
 
-A sophisticated OSINT (Open Source Intelligence) scraping system designed for law enforcement and intelligence gathering operations. This system uses advanced stealth techniques to avoid bot detection while gathering comprehensive profile data from social media platforms.
+A sophisticated OSINT (Open Source Intelligence) scraping system that uses advanced stealth techniques to avoid bot detection while gathering profile data from social media platforms.
 
 ## 🏗️ Architecture Overview
 
@@ -517,7 +517,7 @@ fed-level-osint/
 
 ## 📄 License
 
-This project is designed for authorized law enforcement and intelligence operations. Please ensure compliance with all applicable laws and regulations.
+Please ensure compliance with all applicable laws, terms of service, and ethical guidelines when using this tool.
 
 ## 🤝 Support
 
@@ -525,4 +525,4 @@ For technical support or feature requests, please open an issue in the repositor
 
 ---
 
-**⚠️ Disclaimer**: This tool is designed for authorized OSINT operations. Users are responsible for ensuring compliance with all applicable laws, terms of service, and ethical guidelines.
+**⚠️ Disclaimer**: Users are responsible for ensuring compliance with all applicable laws, terms of service, and ethical guidelines.
