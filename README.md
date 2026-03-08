@@ -1,4 +1,4 @@
-# FED Level OSINT System
+
 
 A sophisticated OSINT (Open Source Intelligence) scraping system designed for law enforcement and intelligence gathering operations. This system uses advanced stealth techniques to avoid bot detection while gathering comprehensive profile data from social media platforms.
 
@@ -205,7 +205,7 @@ curl "http://localhost:8000/results?platform=facebook"
 curl "http://localhost:8000/stats"
 ```
 
-## 🔍 Real Name Lookup System
+##  Real Name Lookup System
 
 ### Overview
 
