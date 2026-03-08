@@ -150,7 +150,7 @@ class GoogleAuthSetup:
                 
                 # Test profile access
                 print("🧪 Testing profile access...")
-                browser.navigate_to("https://www.facebook.com/zuck")
+                browser.navigate_to("https://www.facebook.com/facebook")
                 time.sleep(3)
                 
                 current_url = browser.get_page_url()

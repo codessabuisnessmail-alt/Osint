@@ -4,7 +4,7 @@ Quick Demo with HTML Report Generation
 =====================================
 
 This script demonstrates the OSINT tool with automatic HTML report generation.
-Replaces the missing generate_abigail_baugh_html module.
+Generates HTML reports for OSINT search results.
 """
 
 import sys

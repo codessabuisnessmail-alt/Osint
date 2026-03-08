@@ -133,7 +133,7 @@ def generate_html_report(results, name: str):
 
 
 if __name__ == "__main__":
-    name = "Abigail Baugh"
+    name = "John Doe"
     print(f"Checking 71 usernames for: {name}")
     
     results = check_usernames(name, 71)

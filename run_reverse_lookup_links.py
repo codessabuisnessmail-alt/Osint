@@ -3,8 +3,8 @@
 Run reverse lookup by name and output an HTML file with clickable links.
 
 Usage:
-  python run_reverse_lookup_links.py --name "Linus Torvalds" --platforms github
-  python run_reverse_lookup_links.py --name "Elon Musk" --platforms twitter github
+  python run_reverse_lookup_links.py --name "John Doe" --platforms github
+  python run_reverse_lookup_links.py --name "John Doe" --platforms twitter github
 """
 
 import sys
@@ -68,7 +68,7 @@ def build_html_report(name: str, results: dict, output_path: str) -> str:
 
 def parse_args():
 	parser = argparse.ArgumentParser(description="Reverse lookup by name to clickable links HTML report")
-	parser.add_argument('--name', required=True, help='Full name to search (e.g., "Linus Torvalds")')
+	parser.add_argument('--name', required=True, help='Full name to search (e.g., "John Doe")')
 	parser.add_argument('--platforms', nargs='+', required=True, help='Platforms to search (choose one or more: facebook,instagram,twitter,linkedin,github,tiktok)')
 	parser.add_argument('--out', default='reverse_lookup_links.html', help='Output HTML file')
 	return parser.parse_args()

@@ -11,12 +11,12 @@ import argparse
 from datetime import datetime
 
 KNOWN_PROFILES = [
-	# Twitter
-	{"name": "Elon Musk", "platform": "twitter", "username": "elonmusk", "url": "https://twitter.com/elonmusk"},
-	# GitHub
-	{"name": "Linus Torvalds", "platform": "github", "username": "torvalds", "url": "https://github.com/torvalds"},
-	# LinkedIn (public vanity URL)
-	{"name": "Bill Gates", "platform": "linkedin", "username": "williamhgates", "url": "https://www.linkedin.com/in/williamhgates/"},
+	# Twitter (official account)
+	{"name": "Example", "platform": "twitter", "username": "twitter", "url": "https://twitter.com/twitter"},
+	# GitHub (org account)
+	{"name": "Example", "platform": "github", "username": "github", "url": "https://github.com/github"},
+	# LinkedIn (company page)
+	{"name": "Example", "platform": "linkedin", "username": "linkedin", "url": "https://www.linkedin.com/company/linkedin"},
 ]
 
 

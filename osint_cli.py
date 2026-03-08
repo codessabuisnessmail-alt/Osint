@@ -11,7 +11,7 @@ USAGE EXAMPLES:
     python osint_cli.py search "John Doe"
     
     # Quick demo with sample data
-    python osint_cli.py demo "Abigail Baugh"
+    python osint_cli.py demo "John Doe"
     
     # Generate HTML report
     python osint_cli.py report "John Doe" --output john_doe_results.html
@@ -53,7 +53,7 @@ class OSINTCLI:
             epilog='''
 EXAMPLES:
   python osint_cli.py search "John Doe" --platforms twitter github instagram linkedin
-  python osint_cli.py demo "Abigail Baugh" --platforms twitter github instagram
+  python osint_cli.py demo "John Doe" --platforms twitter github instagram
   python osint_cli.py check-username "johndoe123" --platforms linkedin twitter
   python osint_cli.py report "John Doe" --platforms twitter github instagram linkedin facebook
   python osint_cli.py status
@@ -123,7 +123,7 @@ FEATURES:
         )
         demo_parser.add_argument(
             'name',
-            help='Name to use for demo (e.g., "Abigail Baugh")'
+            help='Name to use for demo (e.g., "John Doe")'
         )
         demo_parser.add_argument(
             '--platforms',

@@ -13,15 +13,15 @@ from scraper.osint_scraper import OSINTScraper
 import json
 
 def quick_demo():
-    print("🚀 Quick OSINT Name Lookup Demo - Abigail Baugh")
+    print("🚀 Quick OSINT Name Lookup Demo - John Doe")
     print("=" * 50)
     print("📋 Enhanced 404 Detection: Heavy penalties for broken profiles ✅")
     
     # Test username generation
     print("\n1. Username Generation:")
     generator = UsernameGenerator()
-    usernames = generator.generate("Abigail", "Baugh")
-    print(f"   Generated {len(usernames)} usernames for 'Abigail Baugh':")
+    usernames = generator.generate("John", "Doe")
+    print(f"   Generated {len(usernames)} usernames for 'John Doe':")
     
     # Take only first 5 usernames for quick demo
     demo_usernames = usernames[:5]
@@ -34,8 +34,8 @@ def quick_demo():
     
     # Real account HTML
     real_html = """
-    <html><head><title>Abigail Baugh - GitHub</title></head>
-    <body><h1>Abigail Baugh</h1><div>repositories</div><div>followers</div><div>bio</div></body>
+    <html><head><title>John Doe - GitHub</title></head>
+    <body><h1>John Doe</h1><div>repositories</div><div>followers</div><div>bio</div></body>
     </html>
     """
     
@@ -46,7 +46,7 @@ def quick_demo():
     </html>
     """
     
-    real_result = detector.analyze_page(real_html, "https://github.com/abigailbaugh", 200, "github")
+    real_result = detector.analyze_page(real_html, "https://github.com/johndoe", 200, "github")
     broken_result = detector.analyze_page(broken_html, "https://github.com/nonexistent", 404, "github")
     
     print(f"   Real account: {real_result['confidence_score']:.3f} confidence ({'✅ REAL' if not real_result['is_bot_detected'] else '❌ BROKEN'})")
@@ -96,8 +96,8 @@ def quick_demo():
     print("   • Use API endpoints where available")
     
     print("\n6. Try the CLI tools with explicit platform selection:")
-    print("   python osint_cli.py search \"Abigail Baugh\" --platforms twitter github instagram linkedin")
-    print("   python name_lookup_cli.py --name \"Abigail\" \"Baugh\" --platforms twitter,github,instagram")
+    print("   python osint_cli.py search \"John Doe\" --platforms twitter github instagram linkedin")
+    print("   python name_lookup_cli.py --name \"John\" \"Doe\" --platforms twitter,github,instagram")
 
 if __name__ == "__main__":
     quick_demo()

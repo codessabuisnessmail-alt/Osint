@@ -264,7 +264,9 @@ with SeleniumStealthBrowser() as browser:
 
 ### Overview
 
-The Cookie Management System automatically imports cookies from your existing browser profiles (Chrome, Firefox, Edge, Safari) and injects them into Selenium sessions to avoid login popups and maintain authenticated states across social media platforms.
+The Cookie Management System automatically imports cookies from **the browser on the machine where the software runs** (Chrome, Firefox, Edge, Safari) and injects them into Selenium sessions to avoid login popups and maintain authenticated states across social media platforms.
+
+> **Privacy Note:** Cookies are read locally from the user's own browser profiles on their machine. No cookies are bundled with the software or shared. Each person who runs this tool uses their own browser's cookies—not the developer's or anyone else's.
 
 ### Supported Browsers
 

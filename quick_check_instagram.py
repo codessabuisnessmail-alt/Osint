@@ -31,4 +31,4 @@ def check_url(url: str, platform: str = "instagram"):
 
 
 if __name__ == "__main__":
-    check_url("https://www.instagram.com/abigail.baugh", "instagram")
+    check_url("https://www.instagram.com/johndoe", "instagram")

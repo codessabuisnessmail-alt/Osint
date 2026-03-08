@@ -69,7 +69,7 @@ def debug_cookie_injection():
             
             # Test with a known profile
             print("\n   Testing with known profile...")
-            browser.navigate_to("https://www.facebook.com/zuck")
+            browser.navigate_to("https://www.facebook.com/facebook")
             time.sleep(3)
             
             current_url = browser.get_page_url()
