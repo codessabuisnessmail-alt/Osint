@@ -1,5 +1,7 @@
 
 
+> **⚠️ Demo / Proof of Concept** — This is a demo project and is not fully fledged. It demonstrates core concepts and functionality but is incomplete, may have bugs, and is not production-ready. Use at your own discretion.
+
 A sophisticated OSINT (Open Source Intelligence) scraping system designed for law enforcement and intelligence gathering operations. This system uses advanced stealth techniques to avoid bot detection while gathering comprehensive profile data from social media platforms.
 
 ## 🏗️ Architecture Overview
